@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Assets Fixeds</string>
+    <!--Data User-->
+    <string name="id">ID</string>
+    <string name="firstName">FirstName</string>
+    <string name="lastName">LastName</string>
+    <string name="text_xxx">XXX</string>
+    <string name="no_data">No data to show</string>
+    <!--Dialog Add User-->
+    <string name="addUser">Add User</string>
+    <string name="hintFirstName">FirstName</string>
+    <string name="hintLastName">LastName</string>
+    <string name="hintEmail">Email</string>
+    <string name="textSave">Save</string>
+</resources>

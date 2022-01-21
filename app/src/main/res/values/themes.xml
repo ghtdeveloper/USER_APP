@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.InspectCarStats" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!--Tema Material Desing para layout login by EMF Sin toolbar-->
+    <style name="materialDesignbyEMF" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="titleTextColor">@color/white</item>
+    </style>
+
+
+    <!--Tema Material Desing para layout login by EMF Sin toolbar-->
+    <style name="materialDesignbyEMFToolbar" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="titleTextColor">@color/white</item>
+    </style>
+    <!--************************************************-->
+
+    <!--Desactivar Dark Mode a partir de la API 29-->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+</resources>
